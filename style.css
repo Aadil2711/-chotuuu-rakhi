@@ -177,3 +177,46 @@ button {
 
     cursor: pointer;
 }
+.sticker {
+    position: absolute;
+
+    width: 70px;
+    height: 70px;
+
+    animation: floatSticker 2s infinite ease-in-out;
+}
+
+.sticker1 {
+    top: 15px;
+    left: 15px;
+}
+
+.sticker2 {
+    top: 15px;
+    right: 15px;
+}
+
+.sticker3 {
+    bottom: 15px;
+    left: 15px;
+}
+
+.sticker4 {
+    bottom: 15px;
+    right: 15px;
+}
+
+@keyframes floatSticker {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
