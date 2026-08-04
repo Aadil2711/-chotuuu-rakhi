@@ -246,3 +246,17 @@ button {
 #continueButton {
     margin-top: 15px;
 }
+.birthday-container {
+    max-height: 80vh;
+    overflow-y: auto;
+    transform: translateY(-10px);
+}
+
+#message {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#continueButton {
+    margin-top: 15px;
+}
