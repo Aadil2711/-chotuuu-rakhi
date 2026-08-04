@@ -234,3 +234,15 @@ button {
 .birthday-container button {
     padding: 12px 24px;
 }
+.birthday-container {
+    transform: translateY(-25px);
+}
+
+#message {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#continueButton {
+    margin-top: 15px;
+}
