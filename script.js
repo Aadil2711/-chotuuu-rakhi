@@ -1,3 +1,5 @@
+console.log("Script loaded");
+
 function goToRakhi() {
     window.location.href = "rakhi.html";
 }

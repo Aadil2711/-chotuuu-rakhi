@@ -220,3 +220,17 @@ button {
         transform: translateY(0px);
     }
 }
+.birthday-container {
+    padding: 25px;
+    max-width: 600px;
+    transform: translateY(-15px);
+}
+
+.birthday-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.birthday-container button {
+    padding: 12px 24px;
+}
