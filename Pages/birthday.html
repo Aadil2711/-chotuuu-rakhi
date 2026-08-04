@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday 🎂✨</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+    <div class="left-image">
+        <img src="../Images/15.jpg">
+    </div>
+
+    <div class="right-image">
+        <img src="../Images/14.jpg">
+    </div>
+
+    <div class="container">
+
+        <div class="stickers">
+
+            <img src="../Stickers/21.webp"
+                 class="sticker sticker1">
+
+            <img src="../Stickers/22.webp"
+                 class="sticker sticker2">
+
+            <img src="../Stickers/23.webp"
+                 class="sticker sticker3">
+
+            <img src="../Stickers/24.webp"
+                 class="sticker sticker4">
+
+        </div>
+
+        <img src="../Images/13.jpg"
+             class="small-photo">
+
+        <h1>🎂 The First Birthday 🎂</h1>
+
+        <p>
+
+            It was the first birthday I celebrated with you.
+
+            <br><br>
+
+            So I wanted to make sure it became a special one.
+
+            <br><br>
+
+            I had so many gifts to give you because I knew you wouldn't spare me anyway. 😭❤️
+
+            <br><br>
+
+            But seeing you happy made everything worth it.
+
+            <br><br>
+
+            I'm really glad you enjoyed it so much.
+
+            <br><br>
+
+            And I think we both know that this was the best birthday ever. ❤️
+
+        </p>
+
+        <div id="buttons">
+
+            <button onclick="correctAnswer()">
+                Best birthday ever ❤️
+            </button>
+
+            <br><br>
+
+            <button onclick="wrongAnswer()">
+                Just the best birthday 😏
+            </button>
+
+        </div>
+
+        <p id="message"></p>
+
+        <button id="continueButton"
+                style="display:none;"
+                onclick="window.location.href='idiot.html'">
+
+            Continue ❤️
+
+        </button>
+
+    </div>
+
+    <script>
+
+        function wrongAnswer() {
+
+            document.getElementById("message").innerHTML =
+                "❌ Wrong answer.<br><br>It was the absolute bestest birthday ever. 😤❤️";
+
+            document.getElementById("continueButton").style.display = "inline-block";
+        }
+
+        function correctAnswer() {
+
+            document.getElementById("message").innerHTML =
+                "Correct answer. I knew you would choose this one. 😎❤️";
+
+            document.getElementById("continueButton").style.display = "inline-block";
+        }
+
+    </script>
+
+</body>
+
+</html>
