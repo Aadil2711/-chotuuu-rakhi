@@ -34,3 +34,18 @@ function openLetter() {
 
     document.getElementById("openedLetter").style.display = "block";
 }
+function wrongAnswer() {
+
+    document.getElementById("message").innerHTML =
+        "❌ Wrong answer.<br><br>It was the absolute bestest birthday ever. 😤❤️";
+
+    document.getElementById("continueButton").style.display = "inline-block";
+}
+
+function correctAnswer() {
+
+    document.getElementById("message").innerHTML =
+        "Correct answer. 😎❤️";
+
+    document.getElementById("continueButton").style.display = "inline-block";
+}
