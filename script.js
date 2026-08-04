@@ -10,6 +10,14 @@ function goToBirthday() {
     window.location.href = "birthday.html";
 }
 
+function goToIdiot() {
+    window.location.href = "idiot.html";
+}
+
+function goToFather() {
+    window.location.href = "father.html";
+}
+
 function goToGallery() {
     window.location.href = "gallery.html";
 }
@@ -17,6 +25,7 @@ function goToGallery() {
 function goToEnding() {
     window.location.href = "ending.html";
 }
+
 function openLetter() {
 
     document.getElementById("closedLetter").style.display = "none";
