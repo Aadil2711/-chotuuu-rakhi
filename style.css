@@ -313,3 +313,7 @@ button {
     background: white;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+.ending-container {
+    max-height: 80vh;
+    overflow-y: auto;
+}
