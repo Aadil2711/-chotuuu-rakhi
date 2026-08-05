@@ -78,19 +78,27 @@
 
         .ending {
 
-            position: absolute;
+    position: absolute;
 
-            top: 50%;
-            left: 50%;
+    top: 50%;
+    left: 50%;
 
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
-            color: white;
+    width: 80%;
 
-            font-size: 42px;
+    color: white;
 
-            display: none;
-        }
+    text-align: center;
+
+    line-height: 1.8;
+
+    font-size: 20px;
+
+    display: none;
+
+    text-shadow: 2px 2px 10px black;
+}
 
     </style>
 
@@ -126,11 +134,55 @@
     </div>
 
     <div class="ending"
-         id="endingText">
+     id="endingText">
 
-        The End ❤️
+    <h1>❤️ Thank you, Chotuuu ❤️</h1>
 
-    </div>
+    <br>
+
+    <p>
+
+        From the very first day, neither of us knew where all of this would lead.
+
+        <br><br>
+
+        Between the fights, the teasing, the shopping trips, the laughter, the chaos, the arguments and the countless memories, you somehow became one of the most important people in my life.
+
+        <br><br>
+
+        Maybe life will change.
+
+        <br><br>
+
+        Maybe our routines will change.
+
+        <br><br>
+
+        Maybe we won't see each other every day anymore.
+
+        <br><br>
+
+        But some people become a part of our story forever.
+
+        <br><br>
+
+        You are one of those people.
+
+        <br><br>
+
+        And no matter where life takes us, a part of me will always remain the same.
+
+        <br><br>
+
+        Unfortunately for you, you will always be my Chotuuu. ❤️
+
+        <br><br>
+
+        — Adiluuu ❤️
+
+    </p>
+
+</div>
 
     <script>
 
@@ -154,6 +206,8 @@
 
             if (index >= photos.length - 1) {
 
+                document.body.style.background = "black";
+
                 document.querySelector(".slideshow").style.display = "none";
 
                 document.querySelector(".message").style.display = "none";
@@ -161,7 +215,7 @@
                 document.getElementById("endingText").style.display = "block";
 
                 return;
-            }
+                }
 
             left.style.opacity = 0;
             right.style.opacity = 0;
